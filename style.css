@@ -1,0 +1,226 @@
+/*
+Theme Name: WebLab Theme
+Description: Tema del WebLab di udemy
+Author: Marco Cobucci
+Version: 1.0.0
+Text Domain: weblab
+*/
+* {
+    box-sizing: border-box;
+}
+ a {color: #e91e63; font-weight: bold;}
+ a:hover {color: #c1134e;}
+.bold {font-weight: bold;}
+.logged-in .navbar{top: 30px;}
+body {
+    background: #535151!important;
+    font-family: Raleway, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Asap, sans-serif;
+}
+.bg-primary {
+    background-color: #e91e63!important;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #e91e63;
+    border-color: #e91e63;
+}
+.btn-primary:hover{
+  color: #fff;
+  background-color: #c1134e;
+  border-color: #c1134e;
+}
+.contatti-title {
+    color: #000
+}
+
+#logo {
+    width: 40%;
+    height: 40%;
+}
+
+li {list-style: none;}
+
+.navbar.navbar-expand-sm.fixed-top {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+a.nav-link {
+    color: #fff;
+    font-family: Asap, sans-serif;
+    font-size: 20px;
+}
+
+a.nav-link:hover {
+    color: #ddd
+}
+
+a.navbar-brand {
+    font-family: Asap, sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+}
+
+#home {
+    /* background: url("../img/img-back.jpg") no-repeat; */
+    min-height: 700px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#home .overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 735px;}
+
+#home .home-block {
+    padding-top: 150px;
+}
+
+#home .card-form {
+    background-color: #e91e63;
+    opacity: 0.8;
+}
+
+#corsi-block {
+    background: linear-gradient(-45deg, #e89817 33%, transparent 0%),
+    linear-gradient(-45deg, #de8d2f 67%, transparent 33%),
+    linear-gradient(-45deg, #e89817 100%, transparent 67%);
+}
+
+#tutorial-block {
+    background: linear-gradient(45deg, #ec407a 33%, transparent 0%),
+    linear-gradient(45deg, #e91e63 67%, transparent 33%),
+    linear-gradient(45deg, #ec407a 100%, transparent 67%);
+}
+
+#servizi-block {
+    background: linear-gradient(25deg, #e89817 50%, transparent 0%),
+    linear-gradient(-25deg, #de8d2f 50%, transparent 0%)
+}
+
+
+footer {
+    background-color: #e91e63
+}
+
+input[value] {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+input[value]:hover {
+    color: #000
+}
+
+.btn.btn-outline-light:hover {
+    color: #000;
+}
+
+.carousel-caption {
+    background-color: rgba(33, 32, 32, 0.6);
+    border-radius: .25rem;
+}
+
+span {
+    margin: 0 auto
+}
+
+#yt-card {
+    background-color: #ec407a;
+}
+
+iframe {
+    margin: 0 1.75rem
+}
+
+
+#blog {
+    background-color: #fff;
+}
+#page {
+    background-color: #fff;
+}
+
+.meta-data {
+    background-color: rgba(234, 233, 245, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.40) 0 5px 1px;
+    color: #000;
+}
+
+.meta-data h3 {
+    color: #fff;
+    text-align: center
+}
+
+.meta-text i.fa {
+    color: #e91e63
+}
+
+.media-body {
+    color: #000;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.widget,
+.single {
+    color: #000;
+}
+
+.footer_menu a {color: white;}
+.footer_menu a:hover {color: white; text-decoration: none;}
+
+.top-blog h1 {font-size: 75px; font-weight: normal;}
+.btn a {color: white;}
+#blog .inline-category {display: inline;}
+#blog ul {display: inline-block; padding: 0;}
+#blog h3 a {color: #ffffff}
+#blog a:hover {text-decoration: none;}
+.media-body img{float: left; margin-right: 1rem;}
+
+span.page-numbers.current {color: #e91e63;}
+a.page-numbers {color: #535151;}
+
+.card-single-img img.attachment-large.size-large.wp-post-image {
+    width: 100%;
+    height: auto;
+}
+
+.author-in-top a {color: white;}
+
+#titolo-card {background-color: rgba(0,0,0,0.5);}
+#titolo-card a {color: #e91e63;}
+.meta-data-single {height: 10vh; padding: 3vh 0;}
+/* .data-single a {color: #e91e63;} */
+.icon-other-article {margin: 0 10px;}
+
+textarea#comment {width: 100%;}
+input#submit {width: 100%; color: #ffffff; font-size: 24px;}
+.t-black {
+  color: #000000;
+}
+#page p {color: black}
+/* #page img {width: auto; height: auto;} */
+#page h2 {color: #e91e63; font-weight: bold;}
+#page .card-header {padding: 0;}
+.section-sidebar .card-title {font-weight: bold;}
+.border-primary {border-color: #e91e63 !important;}
+
+.widget-footer .card-body {min-height: 240px;}
+
+#page-404 {background: #ffffff}
+#page-404 h2 {color: #e91e63; font-weight: bold;}
+#page-404 li a{color: #000000;}
+#page-404 a{color: #000000;}
